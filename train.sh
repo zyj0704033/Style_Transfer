@@ -1,0 +1,1 @@
+python train.py --mode train --data_roots /mnt/lustre/zhangyujing/face_data/video_frame_2016 --gpu_ids 0,1,2,3 --style_image styles/mean_pose/wave_crop.jpg --batch_size 32 --debug True --num_epochs 50 --style_weight 25000 --lr 0.0001 --log_iter 20 --save_iter 100
